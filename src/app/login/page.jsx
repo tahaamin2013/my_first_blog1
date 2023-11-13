@@ -1,17 +1,17 @@
 "use client"
 
-import styles from "./loginPage.module.css";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { signIn } from "next-auth/react";
+import styles from "./LoginPage.module.css";
+
 
 const Loginpage = () => {
-  const {data: session} = useSession()
 
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <>
         <div className={styles.socialButton}>Sign in with Google</div>
-        <div className={styles.socialButton} onClick={() => signIn()}>Sign in with Github</div>
+        <button onClick={()=>signIn()} className={styles.socialButton}>Sign in with Github</button>
         <div className={styles.socialButton}>Sign in with Facebook</div>
         </>
       </div>

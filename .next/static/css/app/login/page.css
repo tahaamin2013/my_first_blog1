@@ -1,0 +1,58 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/login/LoginPage.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.LoginPage_container__1qZ5S {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginPage_wrapper___KOpU {
+    background-color: var(--softBg);
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 15px;
+}
+
+.LoginPage_socialButton__ANiFD {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginPage_socialButton__ANiFD:first-child {
+    background-color: #EA4335;
+}
+
+.LoginPage_socialButton__ANiFD:nth-child(2) {
+    background-color: #111;
+}
+
+.LoginPage_socialButton__ANiFD:last-child {
+    background-color: #087BEA;
+}
+
+@media screen and (max-width: 768px) {
+    .LoginPage_wrapper___KOpU {
+        padding: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .LoginPage_wrapper___KOpU {
+        padding: 30px;
+    }
+
+    .LoginPage_socialButton__ANiFD {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

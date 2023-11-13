@@ -13,7 +13,7 @@ export default function Home({searchParams}) {
       <Featured />
       <CategoryList />
       <div className={styles.content}>
-        <CardList page={page} />
+        <CardList page={page}/>
         <Menu />
       </div>
     </div>

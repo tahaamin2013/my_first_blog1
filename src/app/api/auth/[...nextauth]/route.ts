@@ -12,8 +12,8 @@ const authOptions: AuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     GithubProvider({
-      clientId: '6e26750467d26051c5f0',
-      clientSecret: '72a09fad53416987fd32471ccf64d19a60ccc9b7',
+      clientId: 'af34a935a3f2db7cbd31',
+      clientSecret: 'c010c539044693779a7b8cc3b92d06ec48c39bb0',
     }),
   ],
   callbacks: {
